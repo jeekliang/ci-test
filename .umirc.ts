@@ -1,5 +1,5 @@
-import { defineConfig } from '@umijs/max';
-import routes from './src/routes';
+import { defineConfig } from "@umijs/max";
+import routes from "./src/routes";
 
 export default defineConfig({
   antd: {},
@@ -8,11 +8,12 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: "@umijs/max",
   },
   routes: routes,
-  npmClient: 'yarn',
-  base: '/ci-test/',
-  publicPath: '/ci-test/',
+  npmClient: "pnpm",
+  base: "/ci-test/",
+  publicPath: "/ci-test/",
   exportStatic: {},
+  tailwindcss: {},
 });
